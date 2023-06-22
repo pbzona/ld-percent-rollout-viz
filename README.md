@@ -16,7 +16,9 @@ Copy the `.env` file and add your SDK key:
 cp ./backend/.env.example ./backend/.env
 ```
 
-When you're ready to use it, execute the start script:
+Don't forget to change your flag key in `config.js` - make sure to use a flag that is actually using a percentage rollout :)
+
+When you're ready to run the visualization, execute the start script:
 
 ```sh
 ./start.sh
